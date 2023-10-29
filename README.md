@@ -45,4 +45,14 @@ conda install pandas
 
 conda install -c anaconda pymongo
 
+Run App
+
+uvicorn index:app --reload
+
+change port and run
+
+uvicorn index:app --port 8001
+
 ngrok http 8000
+
+zip lambda_function.zip -u mian.py

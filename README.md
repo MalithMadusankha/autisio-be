@@ -1,6 +1,20 @@
-# air-pollution-be
+# autisio-be : LookAfter
 
-This is Air Polution source prediction application
+This application is designed for children to assess whether they may have autism 
+and, if so, determine the level of their condition along with identifying specific 
+areas of concern. The app, built using React Native for the mobile front-end and 
+FastAPI for the back-end server, incorporates machine learning and face detection 
+technologies. This comprehensive tool aims to provide valuable insights into a 
+child's potential autism spectrum disorder, offering a nuanced understanding of 
+their specific challenges.
+
+## Technologies 
+
+OpenCV, Mediapipe, MongoDB, FAST-API, Python
+
+## Algorithms  
+
+LogisticRegression, KNeighborsClassifier, and DecisionTreeClassifier
 
 Create virtual envirment : python -m venv myenv
 

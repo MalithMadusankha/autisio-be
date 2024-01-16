@@ -7,7 +7,6 @@ import joblib
 # Load model
 load_mode = joblib.load('AnalysisModel.joblib')
 
-# Print the loaded model to the console.
 print(load_mode)
 
 def sourece_detect():
